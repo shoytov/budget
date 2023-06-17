@@ -1,0 +1,2 @@
+CREATE TABLE IF NOT EXISTS bills (id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+                                       name TEXT NOT NULL UNIQUE, balance INTEGER DEFAULT 0);
